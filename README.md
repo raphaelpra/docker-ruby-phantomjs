@@ -1,8 +1,10 @@
 # docker-ruby-phantomjs
 
-A simple Dockerfile to add the `phantomJS` binary directly into a prebuilt `ruby` image
-(for those rare occasions when mounting a Docker volume into an image is not an option...)
+A simple Dockerfile to add a [`phantomJS` binary](http://phantomjs.org/download.html) directly into 
+a prebuilt [`ruby` image](https://hub.docker.com/r/_/ruby/) (for use on those rare occasions 
+when mounting a Docker volume into an image is not an option...)
 
-The master branch extends `ruby:2.3.1` and adds `/usr/local/bin/phantomjs v2.1.1`
+The master branch adds `/usr/local/bin/phantomjs v2.1.1` into the `ruby:2.3.1` prebuilt image.
 
-A docker image is automatically built / made available at https://hub.docker.com/r/prime8/docker-ruby-phantomjs/
+A docker image is automatically built by DockerHub from this repo 
+and made available at https://hub.docker.com/r/prime8/docker-ruby-phantomjs/
