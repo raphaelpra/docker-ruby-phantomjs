@@ -7,4 +7,4 @@ when mounting a Docker volume into an image is not an option...)
 The master branch adds `/usr/local/bin/phantomjs v2.1.1` into the `ruby:2.5.0` prebuilt image.
 
 A docker image is automatically built by DockerHub from this repo 
-and made available at https://hub.docker.com/r/prime8/docker-ruby-phantomjs/
+and made available at https://hub.docker.com/r/captive/docker-ruby-phantomjs/
