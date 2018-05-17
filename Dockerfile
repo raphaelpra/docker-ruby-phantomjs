@@ -1,5 +1,4 @@
-FROM ruby:2.3.1
-MAINTAINER prime8@users.noreply.github.com
+FROM ruby:2.5.0
 
 ENV PHANTOMJSVER=2.1.1
 
